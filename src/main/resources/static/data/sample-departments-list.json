@@ -1,0 +1,24 @@
+
+    [
+        {
+    "departmentName" : "Electronics",
+    "address" : "Vijaya nagar Colony, Hyderabad",
+    "departmentCode" : "4EC"
+        },
+        {
+    "departmentName" : "Mechannical",
+    "address" : "Asif nagar, Hyderabad",
+    "departmentCode" : "7ME"
+        },
+        {
+    "departmentName" : "Computers",
+    "address" : "Rajeev nagar, Hyderabad",
+    "departmentCode" : "5CO"
+        },
+        {
+    "departmentName" : "Radiology",
+    "address" : "Shanti nagar Colony, Bangalore",
+    "departmentCode" : "6RA"
+        }
+        ]
+
