@@ -3,6 +3,7 @@ package com.peraton.departmentservice.service;
 import com.peraton.departmentservice.entity.Department;
 import com.peraton.departmentservice.repo.DepartmentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,7 +20,7 @@ public class DepartmentService {
     public List<Department> saveDepartments(List<Department> departments) {
         return departmentRepo.saveAll(departments);
     }
-
+//    @Async("asyncExecutor")
     public Department getDepartmentById(Long id) {
         return departmentRepo.getDepartmentById(id);
     }
